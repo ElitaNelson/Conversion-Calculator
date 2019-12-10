@@ -60,8 +60,6 @@ class ConverterViewController: UIViewController {
     }
     
     
-    //new stuff
-    
     // enters numbers 0-9
     @IBAction func numberButtons(_ sender: UIButton) {
         enteredNumber += String(sender.tag)
